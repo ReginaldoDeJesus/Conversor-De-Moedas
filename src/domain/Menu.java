@@ -1,3 +1,5 @@
+package domain;
+
 public class Menu {
 
     public void mostrarMenu(){

@@ -1,3 +1,5 @@
+package domain;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -25,7 +27,6 @@ public class BuscadorDeCotacoes {
 
             //System.out.println(response.body());
              Cotacao cotacao = new Gson().fromJson(response.body(), Cotacao.class);
-            System.out.println(cotacao);
              return cotacao;
         }catch(Exception e){
             System.out.println(e.getMessage());

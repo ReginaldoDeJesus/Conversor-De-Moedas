@@ -1,5 +1,4 @@
-import java.util.HashSet;
-import java.util.List;
+package domain;
 
 public record Cotacao(Moedas conversion_rates) {
 }
